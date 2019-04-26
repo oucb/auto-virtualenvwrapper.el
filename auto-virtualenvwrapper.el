@@ -130,8 +130,8 @@ invalid, because the buffer might be moved to another project.")
                   default-directory)
                auto-virtualenvwrapper--project-root)
       (setq auto-virtualenvwrapper--project-root
-            (or (auto-virtualenvwrapper--project-root-projectile)
-                (auto-virtualenvwrapper--project-root-traverse)
+            (or (auto-virtualenvwrapper--project-root-traverse)
+                (auto-virtualenvwrapper--project-root-projectile)
                 (auto-virtualenvwrapper--project-root-vc)
                 "")
             auto-virtualenvwrapper--project-root-cached-in
