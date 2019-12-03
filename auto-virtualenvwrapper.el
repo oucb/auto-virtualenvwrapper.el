@@ -64,7 +64,7 @@ any virtualenv. This is nil by default, for backward compatibility."
   :group 'auto-virtualenvwrapper)
 
 (defvar auto-virtualenvwrapper-project-root-files
-  '(".python-version" ".dir-locals.el" ".projectile" ".emacs-project" ".workon" "Pipfile" "manage.py")
+  '(".python-version" ".dir-locals.el" ".projectile" ".emacs-project" ".workon" "Pipfile" "pyproject.toml" "manage.py")
   "The presence of any file/directory in this list indicates a project root.")
 
 (defvar auto-virtualenvwrapper-verbose t
